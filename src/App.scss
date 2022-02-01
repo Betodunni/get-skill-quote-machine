@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  #quote-box{
+    padding: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    #author {
+      text-align: end;    
+    }
+    .button {
+      #tweet-quote {
+        float: left;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+      }
+    }  
+    #new-quote {
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }  
+  }
+  .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  }
+}
+
+
+
+
+
+
